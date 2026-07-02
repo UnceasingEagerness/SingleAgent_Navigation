@@ -1,0 +1,43 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Deep Learning / Model Weights
+*.pth
+*.pt
+*.ckpt
+*.weights
+*.h5
+*.hdf5
+*.onnx
+
+# Data and logs
+*.csv
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+runs/
+logs/
+tensorboard/
+core.*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MacOS
+.DS_Store
